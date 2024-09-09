@@ -1,14 +1,14 @@
 import React from "react";
-import logo2 from "../assets/images/Logo2.png";
-import SocialIcon from "../assets/images/Social Icons.png";
-import SocialIcon1 from "../assets/images/Social Icons1.png";
-import SocialIcon2 from "../assets/images/Social Icons2.png";
-import SocialIcon3 from "../assets/images/Social Icons3.png";
+import logo2 from "../../assets/images/Logo2.png";
+import SocialIcon from "../../assets/images/Social Icons.png";
+import SocialIcon1 from "../../assets/images/Social Icons1.png";
+import SocialIcon2 from "../../assets/images/Social Icons2.png";
+import SocialIcon3 from "../../assets/images/Social Icons3.png";
 
 const Footer = () => {
   return (
     <footer className="bg-[#263238] py-12">
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between">
+      <div className="container mx-auto px-4 flex flex-row flex-wrap justify-between">
         <div className="lg:w-[40%] mb-8 lg:mb-0">
           <img src={logo2} alt="Logo" className="mb-6" />
           <p className="text-[14px] font-normal leading-[20px] text-left text-[#F5F7FA] mb-2">

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/images/Logo.png";
+import logo from "../../assets/images/Logo.png";
 import { HiMenu, HiX } from "react-icons/hi";
 
 const Header = () => {
